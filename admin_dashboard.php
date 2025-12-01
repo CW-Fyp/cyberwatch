@@ -7,7 +7,7 @@ if (!isset($_SESSION["admin_logged_in"]) || $_SESSION["admin_logged_in"] !== tru
     header("location: login.php");
     exit;
 }
-amir hensem
+
 
 $admin_username = $_SESSION["admin_username"];
 
